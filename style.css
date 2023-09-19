@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  background-color: #333b50;
+  box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.nav-head {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  margin-right: 330px;
+}
+
+.logo {
+  width: 40%;
+  margin-top: -10px;
+  margin-left: 190px;
+}
+
+.names {
+  margin-bottom: 10%;
+}
+
+.main {
+  margin-left: 25%;
+  font-size: 80px;
+  line-height: 100px;
+}
+
+.desc {
+  margin-left: 25%;
+  font-size: 25px;
+  margin-top: -60px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.desc-box {
+  background-color: #333b50;
+  border: 1px #000 solid;
+  text-align: center;
+  width: 65%;
+  height: 550px;
+}
+
+.logo-two {
+  width: 20%;
+}
+
+.story {
+  margin-top: 50px;
+  font-size: 25px;
+  color: #cdcfd4;
+  margin-bottom: 100px;
+  line-height: 30px;
+  width: 86%;
+  margin-left: 60px;
+}
+
+.resume-btn {
+  width: 25%;
+  height: 45px;
+  background-color: #333b50;
+  border: 1px #77d84b solid;
+}
+
+.resume-btn:hover {
+  background-color: #77d84b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: #737a85;
+  margin-top: -65px;
+  background-image: url(./images/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
